@@ -26,6 +26,18 @@ public:
 
     UPROPERTY(BlueprintReadWrite, Category = "BirdOfPrey")
     UTexture2D* Image;    
+
+    UPROPERTY(BlueprintReadWrite, Category = "BirdOfPrey")
+    float Speed;
+
+    UPROPERTY(BlueprintReadWrite, Category = "BirdOfPrey")
+    float Health;
+
+    UPROPERTY(BlueprintReadWrite, Category = "BirdOfPrey")
+    float MeshScale;
+
+    UPROPERTY(BlueprintReadWrite, Category = "BirdOfPrey")
+    FLinearColor Colour;
 };
 
 /**
